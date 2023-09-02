@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000000;
+  overflow: hidden;
+}
+
+canvas {
+  border: 1px solid #000;
+}
+
+h1 {
+  color: rgba(167, 161, 255, 0.31);
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  font-weight: 500;
+  letter-spacing: 8px;
+  transition: .2s;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+h1:hover {
+  cursor: pointer;
+  color: white;
+}
+
+h1 a {
+  font-size: 15px;
+  letter-spacing: normal;
+  color: rgba(167, 161, 255, 0.31);
+  transition: .2s;
+}
+
+h1 a:hover {
+  color: white;
+}
+
