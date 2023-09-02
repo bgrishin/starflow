@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/starflow/static/css/main.07286c51.css",
-    "main.js": "/starflow/static/js/main.9833f2a0.js",
+    "main.js": "/starflow/static/js/main.a7381846.js",
     "index.html": "/starflow/index.html",
     "main.07286c51.css.map": "/starflow/static/css/main.07286c51.css.map",
-    "main.9833f2a0.js.map": "/starflow/static/js/main.9833f2a0.js.map"
+    "main.a7381846.js.map": "/starflow/static/js/main.a7381846.js.map"
   },
   "entrypoints": [
     "static/css/main.07286c51.css",
-    "static/js/main.9833f2a0.js"
+    "static/js/main.a7381846.js"
   ]
 }
