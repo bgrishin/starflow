@@ -327,7 +327,13 @@ const Starflow = () => {
       <canvas ref={canvasRef} id="relaxCanvas"></canvas>
       <img
         ref={cloudRef}
-        src="/cloud.png"
+        src={
+          window.location.protocol +
+          "//" +
+          window.location.host +
+          window.location.pathname +
+          "cloud.png"
+        }
         alt="Cloud"
         id="cloud"
         style={{ display: "none" }}
