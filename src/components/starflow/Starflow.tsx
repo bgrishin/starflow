@@ -332,6 +332,7 @@ const Starflow = () => {
           "//" +
           window.location.host +
           window.location.pathname +
+          "/" +
           "cloud.png"
         }
         alt="Cloud"
