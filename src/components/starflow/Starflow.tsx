@@ -171,7 +171,7 @@ const Starflow = () => {
         ctx.moveTo(this.x, this.y);
         ctx.lineWidth = 1;
         ctx.lineTo(this.x - 30, this.y + 20);
-        ctx.strokeStyle = `rgba(255, 255, 255, ${Math.sin(this.x / 120)})`;
+        ctx.strokeStyle = `rgba(255, 255, 255, ${Math.sin(this.x / 100)})`;
         ctx.stroke();
       }
 
