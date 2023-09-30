@@ -291,10 +291,16 @@ const Starflow = () => {
         fallingStarsArrayRef.current.push(new FallingStar(x, y));
       }
 
-      animationFrame = requestAnimationFrame(draw);
+      setTimeout(() => {
+        animationFrame = requestAnimationFrame(draw);
+      }, 20);
     };
 
-    window.addEventListener("load", draw);
+    window.addEventListener("load", () => {
+      console.log("load");
+    });
+
+    draw();
 
     const handleResize = () => {
       const dpr = window.devicePixelRatio;
