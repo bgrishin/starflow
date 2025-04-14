@@ -29,7 +29,7 @@ const Starflow = () => {
     // const clouds: Cloud[] = [];
     // const fallingStars: FallingStar[] = [];
 
-    const numStars = 1000;
+    const numStars = 500;
 
     let animationFrame: number = 0;
 
